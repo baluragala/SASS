@@ -1,0 +1,14 @@
+.fruit-pic .photo-apple {
+  background: image-url("images/apple.png") no-repeat;
+}
+.fruit-pic .photo-banana {
+  background: image-url("images/banana.png") no-repeat;
+}
+.fruit-pic .photo-chikko {
+  background: image-url("images/chikko.png") no-repeat;
+}
+.fruit-pic .photo-dragon-fruit {
+  background: image-url("images/dragon-fruit.png") no-repeat;
+}
+
+/*# sourceMappingURL=each.css.map */

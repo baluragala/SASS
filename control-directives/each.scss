@@ -1,0 +1,13 @@
+$list: apple banana chikko dragon-fruit;
+
+@mixin fruit-imgs {
+  @each $fruit in $list {
+    .photo-#{$fruit} {
+      background: image-url("images/#{$fruit}.png") no-repeat;
+    }
+  }
+}
+
+.fruit-pic {
+  @include fruit-imgs();
+}

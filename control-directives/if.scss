@@ -1,0 +1,14 @@
+@mixin txt($weight) {
+  color: white;
+  @if $weight == bold {
+    font-weight: bold;
+  }
+}
+
+.normal-text {
+  @include txt(none);
+}
+
+.bold-text {
+  @include txt(bold);
+}

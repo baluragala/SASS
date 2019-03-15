@@ -1,0 +1,16 @@
+// .error {
+//   border: 1px #f00;
+//   background-color: #fdd;
+// }
+// .seriousError {
+//   border-width: 3px;
+// }
+
+.error {
+  border: 1px #f00;
+  background-color: #fdd;
+}
+.seriousError {
+  @extend .error;
+  border-width: 3px;
+}
